@@ -1,0 +1,23 @@
+.mood-tracker-container {
+  min-height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  color: rgb(20, 20, 20); /* Default text color */
+}
+
+.mood-tracker-container h2,
+.mood-tracker-container p,
+.mood-tracker-container h3 {
+  color: rgb(13, 12, 12);
+}
+
+.mood-tracker-container select,
+.mood-tracker-container button {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}

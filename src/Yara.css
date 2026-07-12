@@ -1,0 +1,117 @@
+.yara-container {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.back-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: #ffffffcc;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 100;
+  font-weight: bold;
+}
+
+.yara-main {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.chat-box {
+  background: #ffffffcc;
+  padding: 20px;
+  border-radius: 12px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+}
+
+.chat-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-bubble {
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 75%;
+  color: black;
+}
+
+.chat-bubble.user {
+  background-color: #daf1ff;
+  align-self: flex-end;
+}
+
+.chat-bubble.yara {
+  background-color: #fff3cd;
+  align-self: flex-start;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-row input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.input-row button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.yara-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.yara-sidebar button {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.chat-history {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  width: 250px;
+  background: #ffffffdd;
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
