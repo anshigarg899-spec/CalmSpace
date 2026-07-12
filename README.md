@@ -1,70 +1,151 @@
-# Getting Started with Create React App
+# 🧠 CalmSpace – AI-Powered Mental Wellness Companion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CalmSpace is an interactive mental health and wellness web application built to support emotional well-being through digital self-care solutions. The platform allows users to track their moods, maintain personal journals, practice guided meditation, receive daily wellness suggestions, and interact with an AI-based chatbot for emotional assistance.
 
-## Available Scripts
+The goal of CalmSpace is to create a simple, secure, and accessible space where users can focus on improving their mental health and building positive daily habits.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+😊 **Mood Tracking System**  
+Track daily emotions and maintain a record of mood patterns.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📊 **Mood Analytics Dashboard**  
+View previous mood entries and understand emotional trends.
 
-### `npm test`
+📝 **Digital Journal**  
+Write and save personal thoughts securely.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🤖 **AI Wellness Chatbot (Yara)**  
+Get AI-powered conversations and supportive responses for emotional guidance.
 
-### `npm run build`
+🧘 **Guided Meditation Sessions**  
+Practice short meditation exercises for relaxation and mindfulness.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💡 **Daily Wellness Tips**  
+Receive positive reminders and mental health improvement suggestions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔐 **Secure Authentication**  
+User login and authentication using Firebase.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+☁️ **Cloud Data Management**  
+Store user information securely with Firebase Firestore.
 
-### `npm run eject`
+📱 **Responsive Design**  
+Optimized interface for different screen sizes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 🛠️ Technology Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Backend & Database
+- Firebase Authentication
+- Firebase Firestore
 
-## Learn More
+## AI Integration
+- OpenAI API (AI Chatbot)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tools & Platforms
+- Visual Studio Code
+- Git & GitHub
+- npm
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+# 📂 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+CalmSpace/
+│── public/
+│── src/
+│   ├── assets/
+│   ├── components/
+│   ├── firebase.js
+│   ├── chatbot.js
+│   ├── openaiApi.js
+│   ├── App.js
+│   ├── index.js
+│── package.json
+│── README.md
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 🚀 Getting Started
 
-### Making a Progressive Web App
+### 1. Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone YOUR_REPOSITORY_LINK
+```
 
-### Advanced Configuration
+### 2. Move into Project Directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+cd CalmSpace
+```
 
-### Deployment
+### 3. Install Required Packages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm install
+```
 
-### `npm run build` fails to minify
+### 4. Run the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm start
+```
+
+The application will be available at:
+
+```
+http://localhost:3000
+```
+
+---
+
+# 🎯 Project Goals
+
+- Promote awareness about mental wellness
+- Provide users with easy self-care tools
+- Encourage mood monitoring and reflection
+- Deliver AI-based emotional support
+- Build healthy and mindful routines
+
+---
+
+# 🔮 Future Improvements
+
+🚀 Advanced mental health insights and reports  
+🌙 Dark theme support  
+🎯 Personalized wellness suggestions  
+🔔 Daily mood reminders  
+🎵 Relaxation sounds and music features  
+👨‍⚕️ Integration with professional counseling services  
+📱 Mobile application support  
+🆘 Emergency support resources  
+
+---
+
+
+# 👩‍💻 Developer
+
+**Anshika Garg**  
+B.Tech – Computer Science & Engineering  
+Manav Rachna University  
+
+---
+
+# 📄 License
+
+This project is created for educational and learning purposes.
+
+⭐ If you like this project, feel free to support it by giving a Star on GitHub!
